@@ -1,0 +1,39 @@
+:root {
+    --primary-color: rgba(13, 110, 139, 0.75);
+    --overlay-color: rgba(24, 39, 51, 0.85);
+    --menu-speed: 0.75s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    line-height: 1.4;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu-wrap .menu>div>div>ul>li>a {
+
+        font-size: 1.5rem;
+
+
+
+
+
+
+    }
+
+}
